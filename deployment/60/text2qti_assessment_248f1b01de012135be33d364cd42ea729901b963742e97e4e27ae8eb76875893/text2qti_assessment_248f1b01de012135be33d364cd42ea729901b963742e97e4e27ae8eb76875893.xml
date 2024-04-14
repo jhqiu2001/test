@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="text2qti_assessment_248f1b01de012135be33d364cd42ea729901b963742e97e4e27ae8eb76875893" title="Quiz">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="text2qti_question_08ad81696ea5b10fe5705a43cc57b19786027183460e96ff2a3a9765bda57341" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_833b5f131039647a23a39326517193524ff553cb40f96dea16f3e0fb139e073f,text2qti_choice_b2e3f83a190ea232378b57dfb445e82f0c247aba6a27c1b48b0795ba9ba5d8be,text2qti_choice_55fe36e676dceb082c052b1080557a68d45f16a61a37d36a5de059c0f2818feb,text2qti_choice_4cd56abf9fa8c1aa2401d24e72f59a46ce39feacd34c68c22ff11dc5de39678e</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_08ad81696ea5b10fe5705a43cc57b19786027183460e96ff2a3a9765bda57341</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;How did the girl end up in the sea during the storm?&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_833b5f131039647a23a39326517193524ff553cb40f96dea16f3e0fb139e073f">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;She fell off the boat&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_b2e3f83a190ea232378b57dfb445e82f0c247aba6a27c1b48b0795ba9ba5d8be">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;The boat struck a rock&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_55fe36e676dceb082c052b1080557a68d45f16a61a37d36a5de059c0f2818feb">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;She wanted to swim&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_4cd56abf9fa8c1aa2401d24e72f59a46ce39feacd34c68c22ff11dc5de39678e">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;She was pushed by another person&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_b2e3f83a190ea232378b57dfb445e82f0c247aba6a27c1b48b0795ba9ba5d8be</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="text2qti_question_4887bd9ac65bd1dff4db0ed09528e15220800105ed47168620f6d651955e294b" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_9ca6c98e0091118b3637d3ba76c22e1644c4022a9d64661e12f7c711697bbf4b,text2qti_choice_226ff1306bdc5db3abe088ec82ba8c708c65dc214a94428213bc9d463bad7563,text2qti_choice_86ed39ed9cb540c1fa123929150cf425fcb86925dd414954c1fb25207d827531,text2qti_choice_b0ee8c7b44466054cd40151b235905c20678625be6db7897a6fb56a3c5409c31</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_4887bd9ac65bd1dff4db0ed09528e15220800105ed47168620f6d651955e294b</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;How far did the girl swim to reach the shore?&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_9ca6c98e0091118b3637d3ba76c22e1644c4022a9d64661e12f7c711697bbf4b">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;2 miles&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_226ff1306bdc5db3abe088ec82ba8c708c65dc214a94428213bc9d463bad7563">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;5 miles&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_86ed39ed9cb540c1fa123929150cf425fcb86925dd414954c1fb25207d827531">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;8 miles&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_b0ee8c7b44466054cd40151b235905c20678625be6db7897a6fb56a3c5409c31">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;10 miles&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_86ed39ed9cb540c1fa123929150cf425fcb86925dd414954c1fb25207d827531</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="text2qti_question_4529366230be18b7ddca1dc346091cbf9ad9417f778fd2b9d1e62e68197babc9" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_8c0da2b7fa851b920b01bba7383990b3d6d72afbac0f66ca0c65e1cdeba9b869,text2qti_choice_e165de3e70ce819fb607f49ff40d26a640deca101d55ce3f0ffcd1d34f3e38e2,text2qti_choice_4320645a3a07f002a6e2cdc98a57a71bad7a9e35d83da501a0fd430dfcba70f3,text2qti_choice_7bc9acd8aeb3ca04540891b834ff0b80b08a68a7eb7c5da9c1d90b6478d312a5</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_4529366230be18b7ddca1dc346091cbf9ad9417f778fd2b9d1e62e68197babc9</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;What did the girl see early the next morning that indicated she was near the shore?&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_8c0da2b7fa851b920b01bba7383990b3d6d72afbac0f66ca0c65e1cdeba9b869">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;A lighthouse&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_e165de3e70ce819fb607f49ff40d26a640deca101d55ce3f0ffcd1d34f3e38e2">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;Another boat&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_4320645a3a07f002a6e2cdc98a57a71bad7a9e35d83da501a0fd430dfcba70f3">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;A light high up on the cliffs&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_7bc9acd8aeb3ca04540891b834ff0b80b08a68a7eb7c5da9c1d90b6478d312a5">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;A beach party&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_4320645a3a07f002a6e2cdc98a57a71bad7a9e35d83da501a0fd430dfcba70f3</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="text2qti_question_63e9fd2c1c1e51acb9bdda6cf44854bba0ae68c4e1cd02a968daf037c23fb3f6" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>true_false_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>text2qti_choice_ee3625720876415aa9b79222139092991f8d247ca0e428db1d45d82de7d1999d,text2qti_choice_d54818db7fa9267f6bd51d329358f8e9fad56f8e18c64222561404fbc9cfe7f5</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>text2qti_question_ref_63e9fd2c1c1e51acb9bdda6cf44854bba0ae68c4e1cd02a968daf037c23fb3f6</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;p&gt;The girl remembered everything clearly about her ordeal.&lt;/p&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="text2qti_choice_ee3625720876415aa9b79222139092991f8d247ca0e428db1d45d82de7d1999d">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;False&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="text2qti_choice_d54818db7fa9267f6bd51d329358f8e9fad56f8e18c64222561404fbc9cfe7f5">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;True&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">text2qti_choice_ee3625720876415aa9b79222139092991f8d247ca0e428db1d45d82de7d1999d</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>
